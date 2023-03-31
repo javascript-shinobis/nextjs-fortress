@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
   },
   "dependencies": {
     "eslint": "8.37.0",
@@ -14,5 +18,18 @@
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  }
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javascript-shinobis/nextjs-fortress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javascript-shinobis/nextjs-fortress/issues"
+  },
+  "homepage": "https://github.com/javascript-shinobis/nextjs-fortress#readme"
+  
 }
