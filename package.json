@@ -6,20 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7"
   },
   "dependencies": {
-    "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/javascript-shinobis/nextjs-fortress.git"
@@ -31,5 +38,4 @@
     "url": "https://github.com/javascript-shinobis/nextjs-fortress/issues"
   },
   "homepage": "https://github.com/javascript-shinobis/nextjs-fortress#readme"
-  
 }
