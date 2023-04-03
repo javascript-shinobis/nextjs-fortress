@@ -48,11 +48,11 @@ Include any notes about things that need to happen before this PR is merged, e.g
 <!---
 Please delete options that are not relevant.
 -->
-- [x] My code follows the style guidelines of this project
-- [x] I have performed a self-review of my own code
-- [x] My pull request represents one logical piece of work.
-- [x] My commits are related to the pull request and look clean.
-- [x] I have created reusable components wherever possible.
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] My pull request represents one logical piece of work.
+- [ ] My commits are related to the pull request and look clean.
+- [ ] I have created reusable components wherever possible.
 - [ ] I have added appropriate tests and documentation.
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
