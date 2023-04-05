@@ -1,6 +1,13 @@
+/* eslint-disable no-console */
+/* eslint-disable react/jsx-no-bind */
 import Head from 'next/head';
+import Button from '../components/Button';
 
 export default function Home() {
+  function handleClick() {
+    console.log('Liked the page!');
+  }
+
   return (
     <>
       <Head>
@@ -10,6 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Nextjs Fortress</h1>
+
+      <Button handleClick={handleClick} title="logIn" />
+      <Button handleClick={handleClick} title="signup" />
     </>
   );
 }
