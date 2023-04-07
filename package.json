@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "prepare": "husky install",
-    "test": "jest --watch",
+    "test": "jest --coverage --ci  --testLocationInResults  --silent --json --outputFile=\"report.json\" ",
     "test:ci": "jest --ci"
   },
   "devDependencies": {
